@@ -1,0 +1,38 @@
+[
+  {
+    "id" : "1",
+    "author" : "premier",
+    "title" : "premierTitre",
+    "nbPages" : 255
+  },
+  {
+    "id" : "2",
+    "author" : "deuxieme",
+    "title" : "deuxiemeTitre",
+    "nbPages" : 455
+  },
+  {
+    "id" : "3",
+    "author" : "troisieme",
+    "title" : "troisiemeTitre",
+    "nbPages" : 25
+  },
+  {
+    "id" : "4",
+    "author" : "quatrieme",
+    "title" : "quatriemeTitre",
+    "nbPages" : 658
+  },
+  {
+    "id" : "5",
+    "author" : "cinquieme",
+    "title" : "cinquiemeTitre",
+    "nbPages" : 985
+  },
+  {
+    "id" : "6",
+    "author" : "sixieme",
+    "title" : "sixiemeTitre",
+    "nbPages" : 123
+  }
+]
