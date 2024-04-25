@@ -1,5 +1,9 @@
 const data = require("../../data/livres.json");
 
+const getAllBooks = () => {
+    return data;
+}
+
 const searchByAuthor = (name) => {
     return data.find(book => book.author === name);
 }
@@ -10,5 +14,6 @@ const searchById = (id) => {
 
 module.exports = {
     searchByAuthor,
-    searchById
+    searchById,
+    getAllBooks
 }
