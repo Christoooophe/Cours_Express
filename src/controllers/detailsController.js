@@ -6,7 +6,7 @@ const detailsBook = (req, res) => {
     if (bookFind === undefined) {
         res.send("Aucun livre à cet id")
     }
-    res.render('index', bookFind);
+    res.json(bookFind);
 }
 
 module.exports = {

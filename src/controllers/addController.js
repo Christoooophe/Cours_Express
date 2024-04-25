@@ -1,5 +1,7 @@
 const addBook = (req, res) => {
-    res.send("<h1>GG le livre a été ajouté</h1>")
+    res.status(201).json({
+        message: 'Livre ajouté !'
+    });
 }
 
 module.exports = {
